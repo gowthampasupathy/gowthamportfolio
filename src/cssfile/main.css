@@ -1,0 +1,137 @@
+body{
+        background-color: #1F2833;
+}
+.navbar{
+    height: 50px;
+    color: white;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 20px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    transform: rotate(-90deg) translate(-100%,0);
+    transform-origin: left top;
+    
+    
+}
+.group{
+    
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.log{
+    float: left;
+    text-align: center;
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.log:hover{
+    text-decoration: line-through;
+}
+
+.log1{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    margin-left: 28px;
+    margin-top: 20px;
+
+}
+.log2{
+    transform: rotate(90deg) translate(-100%,0);
+    text-decoration: none;
+    margin-top: 55px;
+    margin-right: 35px;
+
+}
+.log3{
+    transform: rotate(90deg) translate(-100%,0);
+    text-decoration: none;
+    margin-top: 85px;
+
+}
+.mobile{
+    display: none;
+}
+.txt{
+    font-size: 25px;
+    padding-left: 40px;
+    display: none;
+
+
+}
+.mobile {
+    float: right;
+    display: none;
+    margin-top: -80px;
+    color: white;
+    padding: 30px;
+    font-size: xx-large;
+    
+}
+@media screen and (max-width:769px){
+    .navbar{
+        transform: none;
+        position: fixed;
+    }
+    .group{
+        transform: none;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 90px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        background-color: transparent;
+        box-shadow: 0 40px 60px rgb(0, 0, 0.1);  
+        padding: 40px 0 0 10px; 
+    }
+    
+    .txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+         
+    }
+    .gp{
+        transform: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 90px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 40px 60px rgb(0, 0, 0.1);  
+        padding: 40px 0 0 10px; 
+    }
+    
+    .navbar a{
+        margin-bottom: 25px;
+    }
+    .log2{
+       display: none;
+    }
+    .log3{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile i{
+        cursor: pointer;
+        
+    }
+}
+
