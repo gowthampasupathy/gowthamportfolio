@@ -1,0 +1,42 @@
+.mcard{
+    display: flex ;
+    align-items: center ; 
+    justify-content: center ;
+    backdrop-filter: blur(4px) saturate(180%) ;
+    -webkit-backdrop-filter: blur(4px) saturate(180%) ;
+    background-color: rgba(91, 47, 100, 0.55) ;
+    border-radius: 12px ;
+    border: 1px solid rgba(255, 255, 255, 0.125) ;
+}
+.mmm{
+    display: flex ;
+    align-items: center ; 
+    justify-content: center ;
+    margin: auto; 
+    padding: 3rem;
+}
+.mm1{
+    display: flex ;
+    align-items: center ; 
+    justify-content: center ;
+    margin: auto; 
+    padding: 3rem;
+
+}
+.mm2{
+    display: flex ;
+    align-items: center ; 
+    justify-content: center ;
+    margin: auto; 
+    padding: 3rem;
+
+}
+.head{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}

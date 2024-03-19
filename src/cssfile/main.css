@@ -1,8 +1,15 @@
 body{
-        background-color: #1F2833;
-}
-.navbar{
+    /* background-color: #1F2833; */
+    background: url('../asset/back.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+    }
+
+.navb{
     height: 50px;
+    text-decoration: none;
     color: white;
     width: 100%;
     position: fixed;
@@ -13,6 +20,9 @@ body{
     flex-direction: row-reverse;
     transform: rotate(-90deg) translate(-100%,0);
     transform-origin: left top;
+    margin-top: 90px;
+    position: fixed;
+    
     
     
 }
@@ -21,6 +31,7 @@ body{
     margin-top: 5px;
     display: flex;
     flex-direction: row-reverse;
+    margin-right: 20px;
 
 }
 .log{
@@ -29,6 +40,7 @@ body{
     padding-left: 40px;
     text-decoration: none;
     font-size: 25px;
+    color: white;
 }
 .log:hover{
     text-decoration: line-through;
@@ -42,6 +54,7 @@ body{
     color: white;
     margin-left: 28px;
     margin-top: 20px;
+    position: fixed;
 
 }
 .log2{
@@ -64,6 +77,7 @@ body{
     font-size: 25px;
     padding-left: 40px;
     display: none;
+    text-decoration: none;
 
 
 }
@@ -76,17 +90,40 @@ body{
     font-size: xx-large;
     
 }
+.first{
+    width: auto;
+    height: 750px;
+}
+.second{
+    width: auto;
+    height: 750px;
+    padding:5rem;
+    
+}
+.third{
+    width: auto;
+    height: 750px;
+    padding: 2rem;
+    
+}
+.fourth{
+    width: auto;
+    height: 750px;
+    padding: 5rem;
+}
 @media screen and (max-width:769px){
-    .navbar{
+    .navb{
         transform: none;
-        position: fixed;
+       
     }
     .group{
         transform: none;
+        text-decoration: none;
+        padding-left: 0px;
         display: none;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         top: 90px;
         right: 0px;
         width: 300px;
@@ -100,25 +137,42 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        margin-right: 55px;
+        color: #1F2833 ;
+        
          
     }
     .gp{
         transform: none;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        transition: all .5s ease;
         top: 90px;
         right: 0px;
         width: 300px;
-        height: 100vh;
-        backdrop-filter: blur(10px);
+        height: 70vh;
+        margin-right: 70px;
+        margin-top: 50px;
+        background-color: white;
         box-shadow: 0 40px 60px rgb(0, 0, 0.1);  
         padding: 40px 0 0 10px; 
+        color: #1F2833 ;
+        font-weight: bold;
+       
+    }
+    .log{
+        margin-right: 55px;
+        color: #1F2833 ;
     }
     
-    .navbar a{
+    .navb a{
         margin-bottom: 25px;
+    }
+    .log1{
+        position: fixed;
     }
     .log2{
        display: none;
@@ -128,10 +182,33 @@ body{
     }
     .mobile{
         display: block;
+        margin-top: 0px;
+        margin-right: 40px;
+       
     }
     .mobile i{
         cursor: pointer;
+        position: fixed;
+        
         
     }
+    .first{
+        width: auto;
+        height: auto;
+    }
+    .second{
+        width: auto;
+        height: auto;
+    }
+    .third{
+        width: auto;
+        height: auto;
+    }
+    .fourth{
+        width: auto;
+        height: auto;
+    }
+
+    
 }
 

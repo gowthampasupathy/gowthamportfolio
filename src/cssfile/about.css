@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.photo{
+    width: 260px;
+    height: 260px;
+    margin-left: 5px;
+   
+    border-radius: 40px;
+    
+}
+.piccon{
+    display: flex;
+    align-items: center;
+}
+
+.topic{
+    color: white;
+    font-size: 60px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 20px;
+    
+}
+.down{
+    width: auto;
+    border-radius: 25px !important;
+    background-color: #5b2f64 !important;
+    color: white !important;
+    font-size: 10px !important;
+}
+.abouttop{
+    padding: 2rem;
+    padding-top: 9px;
+}
+.smtopic{
+    font-variant: small-caps;
+    letter-spacing: 5px;
+}
+.card1{
+    margin-top: 30px;
+    margin-left: 90px;
+    border-radius: 30px !important;
+    background-color: #5b2f64 !important;
+    
+    display: none ;
+}
+
+.description{
+    letter-spacing: 2px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 0px;
+    
+   
+    
+}
+.card3{
+    margin-left: 130px !important;
+    border-radius: 30px !important;
+    background-color: #5b2f64 !important;
+    color: white !important;
+}
+.card4{
+    margin-right: 35px !important;
+    height: 270px !important;
+    border-radius: 30px !important;
+    background-color: #5b2f64 !important;
+    color: white !important;
+}
+.edu{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card {
+    backdrop-filter: blur(4px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(4px) saturate(180%) !important;
+    background-color: rgba(91, 47, 100, 0.55) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.125) !important;
+}
+@media screen and (max-width:769px) {
+    .card1{
+        margin-left: -15px;
+        margin-top: 35px;
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .down{
+        width: 300px !important;
+        height: auto;
+        display: none;
+        margin-left: -30px;
+    }
+    .photo{
+        width: 170px;
+        height: 170px;
+        margin-left: -2px;
+    }
+    .topic{
+        font-size: 30px;
+        letter-spacing: 10px;
+        text-align: start;
+        padding: 10px;
+    }
+    
+}
