@@ -35,7 +35,7 @@ const Project = () => {
                 <Card.Text>
                 This is basic quiz website where students can able to attend quiz and get their results.
                 </Card.Text>
-                <Button style={{backgroundColor:'#af3dff',border:'#af3dff'}} href='https://github.com/gowthampasupathy/Quiz-App'>Visit Lets Code</Button>
+                <Button style={{backgroundColor:'#af3dff',border:'#af3dff'}} href='https://github.com/gowthampasupathy/Quiz-App'>Visit Quiz App</Button>
             </Card.Body>
             </Card>
             </Col>
@@ -47,7 +47,7 @@ const Project = () => {
                 <Card.Text>
                 This  website is made with html and css and it is used to add,remove and update books in library
                 </Card.Text>
-                <Button style={{backgroundColor:'#af3dff',border:'#af3dff'}} href='https://github.com/gowthampasupathy/mernrepo/tree/main/librarymanagement'>Visit Lets Code</Button>
+                <Button style={{backgroundColor:'#af3dff',border:'#af3dff'}} href='https://github.com/gowthampasupathy/mernrepo/tree/main/librarymanagement'>Visit Library Management</Button>
             </Card.Body>
             </Card>
             </Col>
