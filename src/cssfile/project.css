@@ -1,15 +1,29 @@
+
 .r1{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    position: relative;
+    z-index: -1;
 }
 .rw1{
     color: white;
+    position: relative;
+    z-index: -1;
 }
 .r2{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    position: relative;
+    z-index: -1;
+}
+
+@media screen and(max-width:769px) {
+    .card{
+        margin: 15px;
+    }
+    
 }

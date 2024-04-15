@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 .photo{
     width: 260px;
     height: 260px;
@@ -31,6 +32,8 @@
 .abouttop{
     padding: 2rem;
     padding-top: 9px;
+    position: relative;
+    z-index: -1;
 }
 .smtopic{
     font-variant: small-caps;
@@ -103,6 +106,9 @@
         letter-spacing: 10px;
         text-align: start;
         padding: 10px;
+    }
+    .card2{
+        margin-right: 2000px;
     }
     
 }

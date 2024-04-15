@@ -1,3 +1,6 @@
+body{
+    z-index: 1;
+}
 .mcard{
     display: flex ;
     align-items: center ; 
@@ -12,23 +15,29 @@
     display: flex ;
     align-items: center ; 
     justify-content: center ;
-    margin: auto; 
+    margin: 7px; 
     padding: 3rem;
+    position: relative;
+    z-index: -1;
 }
 .mm1{
     display: flex ;
     align-items: center ; 
     justify-content: center ;
-    margin: auto; 
+    margin: 7px; 
     padding: 3rem;
+    position: relative;
+    z-index: -1;
 
 }
 .mm2{
     display: flex ;
     align-items: center ; 
     justify-content: center ;
-    margin: auto; 
+    margin: 7px; 
     padding: 3rem;
+    position: relative;
+    z-index: -1;
 
 }
 .head{
@@ -38,5 +47,13 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
+    
+}
+
+
+@media screen and (max-width:769px) {
+    .card{
+        margin: 15px;
+    }
     
 }

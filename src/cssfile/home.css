@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+  z-index: -1;
+}
 .Home{
     color: white;
     margin-left: 190px;
@@ -48,6 +51,7 @@
     --width: 250px;
     --height: 35px;
     --button-color: #af3dff;
+
     margin-top: 30px;
     width: var(--width);
     height: var(--height);
@@ -57,6 +61,9 @@
     border-radius: 0.45em;
     font-family: "Arial";
     transition: background 0.3s;
+    position: relative;
+    z-index: 1;
+    
   }
   
   .button::before {
@@ -133,7 +140,7 @@
     opacity: 1;
     visibility: visible;
   }
-  
+
 
   
     

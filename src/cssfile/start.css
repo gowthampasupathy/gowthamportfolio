@@ -1,0 +1,97 @@
+
+.bottomnav{
+    
+    width: 280px;
+    height: 50px;
+    background-color: violet;
+    background: rgba( 189, 16, 224, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    bottom: 100px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}
+.bottom{
+    display: flex;
+    display: none;
+    justify-content: center;
+    
+
+}
+li{
+    display: inline;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+   
+}
+.bot{
+    text-decoration: none;
+    padding: 7px;
+  
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: red;
+    border-radius: 5px;
+}
+.botval{
+    display: inline;
+    margin-top: 5px;
+    position: relative;
+   
+}
+.botval .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: violet;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .botval .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .botval:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  @media screen and (max-width:769px) {
+    .bottom{
+        display: flex;
+        position: fixed;
+        right: 210px;
+    }
+    
+  }

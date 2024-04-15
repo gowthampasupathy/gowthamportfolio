@@ -16,7 +16,7 @@ const Project = () => {
       <div className='r1'>
         <Row className='rw1' style={{padding:'2rem '}} >
             <Col xs={12} md={4}>
-            <Card style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj1} />
             <Card.Body>
                 <Card.Title>Lets Code</Card.Title>
@@ -28,7 +28,7 @@ const Project = () => {
             </Card>
             </Col>
             <Col xs={12} md={4}>
-            <Card style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj3} />
             <Card.Body>
                 <Card.Title>Quiz App</Card.Title>
@@ -40,7 +40,7 @@ const Project = () => {
             </Card>
             </Col>
             <Col xs={12} md={4}>
-            <Card style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj2} />
             <Card.Body>
                 <Card.Title>Library Management </Card.Title>
@@ -57,7 +57,7 @@ const Project = () => {
       <div className='r2'>
       <Row>
             <Col xs={12} md={12}>
-            <Card style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj4} />
             <Card.Body>
                 <Card.Title>Scholarship Application</Card.Title>
@@ -70,6 +70,7 @@ const Project = () => {
             </Col>
         </Row>
       </div>
+    
     </div>
   )
 }

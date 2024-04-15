@@ -18,7 +18,7 @@ const About = () => {
             </Card.Body>
             </Card>
             </Col>
-            <Col xs={12} md={8} className='card2'>
+            {/* <Col xs={12} md={8} className='card2'>
                 <h1 className='topic'> Self Summary</h1>
                 <Card  className='down'>
                 <Card.Body>
@@ -28,7 +28,7 @@ const About = () => {
                     </div>
                 </Card.Body>
                 </Card>
-            </Col>
+            </Col> */}
         </Row>
         </div>
         {/* <div>
