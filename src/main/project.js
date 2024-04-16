@@ -11,12 +11,12 @@ import proj4 from '../asset/proj4.jpg'
 
 const Project = () => {
   return (
-    <div>
-        <Row><Col xs={12} md={12} style={{color:'white',textAlign:'center',fontVariant:'small-caps',letterSpacing:5}}><h1>My Projects</h1></Col></Row>
+    <div className='projecttop'>
+        <Row className='myproject'><Col xs={12} md={12} style={{color:'white',textAlign:'center',fontVariant:'small-caps',letterSpacing:5}}><h1>My Projects</h1></Col></Row>
       <div className='r1'>
         <Row className='rw1' style={{padding:'2rem '}} >
             <Col xs={12} md={4}>
-            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card' data-aos="zoom-in" data-aos-delay="100" style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj1} />
             <Card.Body>
                 <Card.Title>Lets Code</Card.Title>
@@ -28,7 +28,7 @@ const Project = () => {
             </Card>
             </Col>
             <Col xs={12} md={4}>
-            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card' data-aos="zoom-in" data-aos-delay="150" style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj3} />
             <Card.Body>
                 <Card.Title>Quiz App</Card.Title>
@@ -40,7 +40,7 @@ const Project = () => {
             </Card>
             </Col>
             <Col xs={12} md={4}>
-            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card' data-aos="zoom-in" data-aos-delay="200" style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj2} />
             <Card.Body>
                 <Card.Title>Library Management </Card.Title>
@@ -57,7 +57,7 @@ const Project = () => {
       <div className='r2'>
       <Row>
             <Col xs={12} md={12}>
-            <Card className='card' style={{ width: '18rem' ,color:'white'}}>
+            <Card className='card'data-aos="zoom-in" data-aos-delay="250" style={{ width: '18rem' ,color:'white'}}>
             <Card.Img variant="top" src={proj4} />
             <Card.Body>
                 <Card.Title>Scholarship Application</Card.Title>

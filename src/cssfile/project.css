@@ -6,6 +6,7 @@
     color: white;
     position: relative;
     z-index: -1;
+    top:-80px;
 }
 .rw1{
     color: white;
@@ -19,6 +20,14 @@
     color: white;
     position: relative;
     z-index: -1;
+    top:-80px
+}
+.projecttop{
+    position: relative;
+}
+.myproject{
+    position: relative;
+    top:0px
 }
 
 @media screen and(max-width:769px) {

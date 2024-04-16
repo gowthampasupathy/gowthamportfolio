@@ -6,7 +6,7 @@ import { Col, Row } from 'react-bootstrap'
 
 const Abt = () => {
   return (
-    <div className='mid'>
+    <div className='mid '  data-aos="fade-up">
       <div className='aboutme'><h1>About Me</h1></div>
       <Row className='row'>
         <Col xs={12} md={3} className='rowv' >

@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+AOS.init();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
