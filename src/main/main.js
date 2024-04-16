@@ -85,7 +85,7 @@ const Main = () => {
 
       </div>
       <div className='footersm'>
-        <h5>©2024 CopyRight Gowtham P </h5>
+        <h6>©2024 CopyRight Gowtham P </h6>
 
       </div>
     
