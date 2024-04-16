@@ -326,6 +326,7 @@ body{
     .second{
         width: auto;
         height: auto;
+        padding: 0px;
     }
     .third{
         width: auto;

@@ -12,11 +12,12 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     position: absolute;
     bottom: 100px;
+    left: 75px;
     border-radius: 9px;
     display: flex;
     justify-content: space-evenly;
     position: fixed  ;
-    z-index: 1;
+   
 }
 .bottom{
     display: flex;

@@ -48,3 +48,9 @@
     text-decoration: none;
     color: white;
 }
+@media screen and (max-width:796px) {
+    .footer{
+        display: none;
+    }
+    
+}

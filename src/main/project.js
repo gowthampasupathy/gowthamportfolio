@@ -12,7 +12,7 @@ import proj4 from '../asset/proj4.jpg'
 const Project = () => {
   return (
     <div>
-        <Row><Col xs={12} md={12} style={{color:'white',textAlign:'center'}}><h1>My Projects</h1></Col></Row>
+        <Row><Col xs={12} md={12} style={{color:'white',textAlign:'center',fontVariant:'small-caps',letterSpacing:5}}><h1>My Projects</h1></Col></Row>
       <div className='r1'>
         <Row className='rw1' style={{padding:'2rem '}} >
             <Col xs={12} md={4}>

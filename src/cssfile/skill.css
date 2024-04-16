@@ -47,6 +47,9 @@ body{
     align-items: center;
     justify-content: center;
     justify-items: center;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 5px;
     
 }
 

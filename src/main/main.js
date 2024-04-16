@@ -29,14 +29,7 @@ const Main = () => {
        <nav className='topnav'>
       <a  className='log1' href='#home' >ガ</a>
         </nav>
-        <div className='bottom'>
-        <div className='bottomnav'>
-            <div className='botval '><div className='tooltiptext'>About Me</div><a href='#about'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/about-me.png" alt="about-me"/></a></div>
-            <div className='botval'><div className='tooltiptext'>Projects</div><a href='#project'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/project.png" alt="project"/></a></div>
-            <div className='botval'><div className='tooltiptext'>Skill</div><a href='#skill'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/learning.png" alt="learning"/></a></div>
-            <div className='botval'><div className='tooltiptext'>Contact</div><a><img width="40" height="40" src="https://img.icons8.com/material/48/FFFFFF/business-contact--v1.png" alt="business-contact--v1"/></a></div>
-        </div>
-        </div>
+      
 
       
         <div className='navb'>
@@ -46,6 +39,7 @@ const Main = () => {
         <a className='log' href='#project'>Project </a>
 
        <div className='logobottom'>
+        
        <div className='outer'><a className='l1'  href='https://www.linkedin.com/in/gowtham-pasupathi-885288276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png" alt="linkedin-circled--v1"/></a></div>
        <div  className='outer'> <a className='l2' href='https://github.com/gowthampasupathy'><img width="45" height="45" src="https://img.icons8.com/sf-black/64/FFFFFF/github.png" alt="github"/></a></div>
        <div  className='outer'> <a className='l1'href=''><img width="30 " height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/></a></div>
@@ -67,6 +61,15 @@ const Main = () => {
        <div>
 
     </div>
+    <div className='bottom'>
+        <div className='bottomnav'>
+       
+            <div className='botval '><div className='tooltiptext'>Home</div><a href='#home'> <img width="38" height="38" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/home.png" alt="home"/></a></div>
+            <div className='botval '><div className='tooltiptext'>About Me</div><a href='#about'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/about-me.png" alt="about-me"/></a></div>
+            <div className='botval'><div className='tooltiptext'>Projects</div><a href='#project'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/project.png" alt="project"/></a></div>
+            <div className='botval'><div className='tooltiptext'>Skill</div><a href='#skill'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/learning.png" alt="learning"/></a></div>
+        </div>
+        </div>
     <div className='footer'>
         <h3 className='title'>--Thank You For Visiting --</h3>
         <div className='botlink'>

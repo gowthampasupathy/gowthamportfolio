@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <div >
            <Container>
-           <div  >
-           <Row style={{}} >
+           <div className='outerdiv' >
+           <Row  className='rowout' >
            {/* <Col xs={12} md={4}>
            <div className='side'>
            <img src={line} className='pic'></img>
