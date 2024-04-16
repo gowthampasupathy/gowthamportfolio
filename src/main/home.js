@@ -20,7 +20,7 @@ const Home = () => {
            <Col xs={12} md={15}>
             <div className="Home">
              <h1  >Hello</h1> 
-             <h1 style={{color:'#af3dff'}}>This Is Gowtham P</h1>
+             <h1  className='name' style={{color:'#af3dff'}}>This Is Gowtham P</h1>
              <h5 className='content' >I am  a passionate full-stack web developer . With a strong foundation in the MERN Stack . I specialize in creating dynamic and responsive web application</h5>
              <div className='btntop'>
              <div class="button" data-tooltip="Size: 20Mb">

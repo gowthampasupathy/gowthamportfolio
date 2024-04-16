@@ -116,27 +116,37 @@
 
  @media screen and (max-width:769px) {
     .mid{
-        margin-top: 0px;
+        margin-top: 170px;
     }
     .cont2{
         margin-top: 0px;
-        width: 400px;
+        margin-bottom: 170px;
+        width: 300px;
         height: auto;
-        padding: 20px;
+        padding: 13px;
+        
+    }
+    .para{
+        font-size: 16px !important;
+    }
+    .contact{
+        font-size: 15px !important;
     }
     .rowv{
         margin-bottom: 0px;
         padding: 0px;
         width: auto;
-        height: auto;
+        height: 200px;
     }
     .col2{
-        padding: 0px;
+      padding: 0px;
         width: auto;
         height: auto;
     }
     .photo{
         margin: 0px;
+        width: 200px;
+        height: 200px;
     }
     .cont{display: none;}
     .cont2{display: block;}

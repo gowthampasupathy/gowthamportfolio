@@ -7,12 +7,12 @@ import logo from '../asset/react.svg'
 
 const Skill = () => {
   return (
-    <div>
+    <div className='maindiv'>
         <Row className='head' ><Col xs={12} md={12}>
             <h1 > My Skills</h1></Col></Row>
       <div className='mmm' >
         <Row > 
-            <Col xs={12} md={4} >
+            <Col xs={12} md={4} className='colum' >
             <Card className='card' style={{ width: '15rem',color:'white',textAlign:'center',height:'100px' }}>
            <Card.Body>
                 <Card.Text >

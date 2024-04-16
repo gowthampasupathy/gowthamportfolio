@@ -66,8 +66,9 @@ const Main = () => {
        
             <div className='botval '><div className='tooltiptext'>Home</div><a href='#home'> <img width="38" height="38" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/home.png" alt="home"/></a></div>
             <div className='botval '><div className='tooltiptext'>About Me</div><a href='#about'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/about-me.png" alt="about-me"/></a></div>
-            <div className='botval'><div className='tooltiptext'>Projects</div><a href='#project'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/project.png" alt="project"/></a></div>
             <div className='botval'><div className='tooltiptext'>Skill</div><a href='#skill'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/learning.png" alt="learning"/></a></div>
+            <div className='botval'><div className='tooltiptext'>Projects</div><a href='#project'><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/project.png" alt="project"/></a></div>
+           
         </div>
         </div>
     <div className='footer'>
@@ -81,6 +82,10 @@ const Main = () => {
         <div className='myname'>
             <h4>Portfolio || Designed By : Gowtham P</h4>
         </div>
+
+      </div>
+      <div className='footersm'>
+        <h5>©2024 CopyRight Gowtham P </h5>
 
       </div>
     

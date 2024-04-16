@@ -1,6 +1,5 @@
-body{
-    z-index: 1;
-}
+
+
 .mcard{
     display: flex ;
     align-items: center ; 
@@ -16,6 +15,7 @@ body{
     align-items: center ; 
     justify-content: center ;
     margin: 7px; 
+    height: auto;
     padding: 3rem;
     position: relative;
     z-index: -1;
@@ -58,5 +58,29 @@ body{
     .card{
         margin: 15px;
     }
-    
+    .mmm{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 47px;
+        width: 250px;
+    }
+    .mm1{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 47px;
+        width: 250px;
+    }
+    .mm2{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 47px;
+        width: 250px;
+    }
+    .maindiv{
+        position: relative;
+    }
+ 
 }

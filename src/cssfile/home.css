@@ -42,15 +42,25 @@ body{
     .Home{
         margin-left: 0px;
         margin-top: 100px;
+        text-align: center;
+       
     }
     .side{
         margin-right: 0px;
         margin-top: 30px;
+       
     }
     .pic{
         margin-left: 0px;
         height: 200px;
         width: 200px;
+    }
+    .btntop{
+      display: flex;
+      justify-content: center;
+    }
+    .name{
+      font-size: 30px;
     }
     
 }

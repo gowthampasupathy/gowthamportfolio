@@ -7,6 +7,7 @@ body{
     background-size: cover;
     
     
+    
 
     }
 
@@ -233,7 +234,17 @@ body{
 
   
 
-
+.footersm{
+    display: none;
+    width: auto;
+    height: 50px;
+    color: white;
+    font-family: monospace;
+    background-color: #af3dff;
+    
+    align-items: center;
+    justify-content: center;
+}
 
 @media screen and (max-width:769px){
     .navb{
@@ -345,6 +356,9 @@ body{
         position: absolute;
         z-index: 1;
 
+    }
+    .footersm{
+        display: flex;
     }
 
     
