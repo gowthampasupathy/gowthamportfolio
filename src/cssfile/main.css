@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body{
     /* background-color: #1F2833; */
     background: url('../asset/back.jpg');
@@ -40,7 +42,7 @@ body{
     margin-top: 5px;
     display: flex;
     flex-direction: row-reverse;
-    
+    font-variant: small-caps;
     margin-right: 20px;
 
 
@@ -58,6 +60,49 @@ body{
     position: relative;
     
 }
+.log::before {
+    content: "";
+    position: absolute;
+    left: 60px;
+    top:20px;
+    bottom: 0px;
+    height: 2px;
+    width: 0;
+    background-color: #af3dff;
+    transition: 0.5s ease;
+  }
+  
+  .log:hover {
+    color: #af3dff;
+    transition-delay: 0.5s;
+  }
+  
+  .log:hover::before {
+    width: 50%;
+    left: 60px;
+  }
+  
+  .log::after {
+    content: "";
+    display: none;
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+    top:10px;
+    height: 0;
+    width: 50%;
+    background-color: #af3dff;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .log:hover::after {
+    height: 100%;
+    left: 50px;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  
 
 
 
@@ -80,6 +125,10 @@ body{
     margin-right: 25px;
 
 }
+.log2:hover {
+   transform: translate(1px)
+  }
+
 .log3{
     transform: rotate(90deg) translate(-100%,0);
     text-decoration: none;
@@ -144,7 +193,43 @@ body{
     display: flex;
     flex-direction: row-reverse;
 }
+.logobottom{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 240px;
+    height: auto;
+}
+.logobottom a{
+   
+    transform: rotate(90deg) translate(-100%,0);
+    margin-top: 50px;
+    
+}
 
+.outer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 7px;
+}
+.outer:hover{
+    background-color: #af3dff;
+  transform: translateX(0.5em);
+}
+.l1{
+    transform: rotate(90deg) translate(-100%,0);
+    margin-top: 57px !important;
+}
+.l2{
+    transform: rotate(90deg) translate(-100%,0);
+    margin-top: 87px !important;
+    
+}
 
   
 

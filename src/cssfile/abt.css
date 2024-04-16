@@ -1,0 +1,70 @@
+body{
+    
+}
+.photo{
+    width: 260px;
+    height: 260px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+
+   
+    border-radius: 40px;
+    
+}
+.piccon{
+    display: flex;
+    align-items: center;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.content{
+    letter-spacing: 2px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 0px;
+    color: white;
+   
+    
+}
+.photo1{
+    transform: translateY(-10%);
+    animation: floater 1.5s infinite;
+    transition: ease 0.5s;
+    width: 80px;
+    height:80px;
+  }
+  
+  
+  
+  @keyframes floater {
+    0%{transform: translateY(-10%);transition: ease 0.5s;}
+    50%{transform: translateY(10%);transition: ease 0.5s;}
+  }
+ .rowv{
+    margin-bottom: 80px;
+ }
+ .cont{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    position: relative;
+    z-index: -2;
+
+    color: white;
+    font-family: monospace;
+    backdrop-filter: blur(4px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(4px) saturate(180%) !important;
+    background-color: rgba(91, 47, 100, 0.55) !important;
+    border-radius: 12px !important;
+    border: 5px solid purple    !important;
+ }
+ .para{
+    line-height: 1.6;
+   
+ }

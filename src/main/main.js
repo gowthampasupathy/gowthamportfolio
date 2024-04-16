@@ -5,7 +5,7 @@ import  "../cssfile/footer.css"
 import linkedin from '../asset/linkedin.svg'
 import github from '../asset/github.svg'
 import Home from './home'
-import About from './about'
+import About from './abt'
 import Skill from './skill'
 import { Link } from 'react-router-dom'
 import Project from './project'
@@ -45,10 +45,12 @@ const Main = () => {
         <a className='log' href='#skill'>Skill </a>
         <a className='log' href='#project'>Project </a>
 
-        <a className='log2' href='https://www.linkedin.com/in/gowtham-pasupathi-885288276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png" alt="linkedin-circled--v1"/></a>
-        <a className='log3' href='https://github.com/gowthampasupathy'><img width="45" height="45" src="https://img.icons8.com/sf-black/64/FFFFFF/github.png" alt="github"/></a>
-        <a  className='log4' href=''><img width="30 " height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/></a>
-        <a className='log5' href='mailto:gowthampasupathi17@gmail.com'><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/gmail-new.png" alt="gmail-new"/></a>
+       <div className='logobottom'>
+       <div className='outer'><a className='l1'  href='https://www.linkedin.com/in/gowtham-pasupathi-885288276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png" alt="linkedin-circled--v1"/></a></div>
+       <div  className='outer'> <a className='l2' href='https://github.com/gowthampasupathy'><img width="45" height="45" src="https://img.icons8.com/sf-black/64/FFFFFF/github.png" alt="github"/></a></div>
+       <div  className='outer'> <a className='l1'href=''><img width="30 " height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/></a></div>
+        <div  className='outer'><a className='l1' href='mailto:gowthampasupathi17@gmail.com'><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/gmail-new.png" alt="gmail-new"/></a></div>
+       </div>
      
         </div>
 
